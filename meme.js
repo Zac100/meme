@@ -26,21 +26,15 @@ function append(imgurl, toptext, bottomtext) {
     </td>
 </tr>`;
     
-    //var table = document.createElementbyId('pichere')
     $("table").append(newMeme);
     imgCounter++;
 }
 
-// ZAC GET RID OF THE IMAGE, YOU'RE SO CLOSE!
 function imageClick(elem){
     var elemToRemove = elem.parentElement.parentElement.parentElement
     elemToRemove.parentElement.removeChild(elemToRemove);
 
-    // alert(elem.id);
-    // var parent = $("table");
-    // $(parent).remove("#" + elem.id);
-    // var child = document.getElementById(id);
-    // child.parent.removeChild(child);
+    
 }
 
 
