@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Container Example</title>
+    <!-- Links to Bootstrap sheet -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/slate/bootstrap.min.css" rel="stylesheet" integrity="sha384-ywjdn7N8uoxzIfGl7jlEBlqw2BNicOSzZDgo7A2ffvbM24Ct9plRp7KwtaIqZ33j" crossorigin="anonymous">  <!-- Links to CSS sheet -->
+    <link rel="stylesheet" href="/Users/stevechen/Documents/dev/meme/meme.css">
+</head>
+<body>
+   
+    <!-- Content Area -->
+  <div class="container alert alert-primary welcome" class="welcome">
+    <h1>memes!</h1>
+    <h5>Fill out the form below to make a meme!</h5>
+    <div class="form-group">
+        <!-- MAKE SURE TO DELETE THE VALUES BEFORE SENDING -->
+        <label for="name">URL to Image</label>
+        <input type="text" class="form-control" id="imgurl" placeholder="URL to Image">
+    </div>
+    <div class="form-group">
+        <label for="toptext">Top Text:</label>
+        <input type="text" class="form-control" id="toptext" placeholder="Top Text Goes Here">
+    </div>
+    <div class="form-group">
+            <label for="fav-food">Bottom Text:</label>
+            <input type="text" class="form-control" id="bottomtext" placeholder="Bottom Text Goes Here">
+    </div>
+    <button type="submit" onclick="buttonClick()" class="btn btn-primary">Submit</button>
+<div class="container">
+        <h1>Your Memes:</h1>
+        <table class="pichere">
+            
+        
+        </table>
+        
+        
+ </div>
+    
+    
+    <!-- Allows jQuery and Popper.js, allows navbutton to open up -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <!-- JavaScript link -->
+    <script src="/Users/stevechen/Documents/dev/meme/meme.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

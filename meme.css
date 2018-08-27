@@ -1,0 +1,43 @@
+
+
+    
+
+    .toptext {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 45px;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+         
+    }
+
+    .bottomtext {
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 45px;
+        text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+            }
+
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    img {
+        transition: filter .5s ease-in-out;
+        -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(0%); /* FF 35+ */
+      }
+      img:hover {
+        -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+        filter: grayscale(100%); /* FF 35+ */
+      }
+
